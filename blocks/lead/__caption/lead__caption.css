@@ -1,0 +1,10 @@
+.lead__caption {
+  margin: 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #FFF;
+  font-size: 10px;
+  line-height: 1.4;
+}
