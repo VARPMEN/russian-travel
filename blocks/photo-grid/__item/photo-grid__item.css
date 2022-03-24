@@ -1,6 +1,4 @@
 .photo-grid__item {
-  background-size: cover;
-  background-repeat: no-repeat;
+  object-fit: cover;
   width: 100%;
-  padding-bottom: 75%;
 }

@@ -1,0 +1,38 @@
+.cover__background {
+  background-image: url(../../../images/cover-baikal.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-top: 245px;
+  padding-bottom: 245px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.cover__background::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  background: #2A2C2F;
+  opacity: 0.3;
+
+  transition: opacity 0.4s;
+}
+
+.cover__background:hover::before {
+  opacity: 0.8;
+}
+
+@media (max-width: 1024px) {
+  .cover__background {
+    padding-top: 195px;
+    padding-bottom: 195px;
+  }
+}

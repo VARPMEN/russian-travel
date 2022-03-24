@@ -34,18 +34,6 @@
 /* PHOTO-GRID */
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
-@import url(../blocks/photo-grid/__item/_picture/photo-grid__item_picture_train-window.css);
-@import url(../blocks/photo-grid/__item/_picture/photo-grid__item_picture_beach.css);
-@import url(../blocks/photo-grid/__item/_picture/photo-grid__item_picture_beachrock.css);
-@import url(../blocks/photo-grid/__item/_picture/photo-grid__item_picture_car-ice.css);
-@import url(../blocks/photo-grid/__item/_picture/photo-grid__item_picture_dog.css);
-@import url(../blocks/photo-grid/__item/_picture/photo-grid__item_picture_fog.css);
-@import url(../blocks/photo-grid/__item/_picture/photo-grid__item_picture_foothills.css);
-@import url(../blocks/photo-grid/__item/_picture/photo-grid__item_picture_forest.css);
-@import url(../blocks/photo-grid/__item/_picture/photo-grid__item_picture_hills.css);
-@import url(../blocks/photo-grid/__item/_picture/photo-grid__item_picture_mountains.css);
-@import url(../blocks/photo-grid/__item/_picture/photo-grid__item_picture_rocks.css);
-@import url(../blocks/photo-grid/__item/_picture/photo-grid__item_picture_sign.css);
 
 /* PLACES */
 @import url(../blocks/places/places.css);
@@ -58,17 +46,13 @@
 @import url(../blocks/place/__url-heading/place__url-heading.css);
 @import url(../blocks/place/__link/place__link.css);
 @import url(../blocks/place/__image/place__image.css);
-@import url(../blocks/place/__image/_picture/place__image_picture_altai.css);
-@import url(../blocks/place/__image/_picture/place__image_picture_baikal.css);
-@import url(../blocks/place/__image/_picture/place__image_picture_karelia.css);
-@import url(../blocks/place/__image/_picture/place__image_picture_kolskii.css);
-@import url(../blocks/place/__image/_picture/place__image_picture_kosa.css);
 @import url(../blocks/place/__paragraphs/place__paragraphs.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 
 /* COVER */
-@import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__link/cover__link.css);
+@import url(../blocks/cover/__background/cover__background.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 
