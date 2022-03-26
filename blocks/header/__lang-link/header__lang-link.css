@@ -10,3 +10,10 @@
   margin-right: 15px;
   border-bottom: 1px solid #FFF;
 }
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 1.11;
+  }
+}

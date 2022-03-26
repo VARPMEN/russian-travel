@@ -23,3 +23,16 @@
     grid-template-columns: minmax(320px, 340px) minmax(320px, 352px);
   }
 }
+
+@media (max-width: 668px) {
+  .place {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .place {
+    row-gap: 32px;
+    margin-bottom: 50px;
+  }
+}

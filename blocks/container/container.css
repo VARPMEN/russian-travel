@@ -13,3 +13,11 @@
     padding-right: 24px;
   }
 }
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .container {
+    margin-bottom: 64px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
