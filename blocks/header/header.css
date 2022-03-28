@@ -12,3 +12,9 @@
     padding-bottom: 48px;
   }
 }
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .header {
+    padding-top: 16px;
+  }
+}
